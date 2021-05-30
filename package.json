@@ -1,0 +1,29 @@
+{
+  "name": "Fogworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "base.js",
+  "dependencies": {
+    "postcss-cli-simple": "^3.1.0",
+    "vue": "^2.6.12"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.0",
+    "tailwindcss": "^2.1.2"
+  },
+  "scripts": {
+    "build": "postcss css/main.css -o public/build/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anessali/Fogworld.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anessali/Fogworld/issues"
+  },
+  "homepage": "https://github.com/Anessali/Fogworld#readme"
+}
