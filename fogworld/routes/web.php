@@ -14,9 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('layouts/app');
-});
-
-Route::get('/welcome', function(){
-    return 'Welcome to the new app!';
+    return view('welcome');
 });
